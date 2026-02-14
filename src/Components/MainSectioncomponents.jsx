@@ -5,7 +5,7 @@ const MainSectioncomponent = ({Image, Alt ,Greeting, MainHeading, SubHeading, ic
     return(
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center items-center">
 
-            <div className="picture-container border border-red-500 flex justify-center">
+            <div className="picture-container border border-red-500 flex justify-center ">
                 <img 
                 src={Image}
                 alt={Alt} 
