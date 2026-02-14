@@ -10,7 +10,7 @@ function Footer(){
 
     return(
 
-        <footer className="flex flex-col border border-black p-10 gap-4 bg-white items-center justify-center">
+        <footer className="flex flex-col border border-black p-10 gap-4 bg-white items-center justify-center dark:bg-gray-900">
 
             <div className="flex flex-col border border-black">
                 <span className='flex flex-row gap-4' >

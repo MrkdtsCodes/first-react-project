@@ -1,15 +1,16 @@
 import '../Styles/PictureText.css';
 
 
+
 const MainSectioncomponent = ({Image, Alt ,Greeting, MainHeading, SubHeading, icons}) => {
     return(
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center items-center">
 
-            <div className="picture-container border border-red-500 flex justify-center ">
+            <div className="picture-container border border-red-500 flex justify-center p-4">
                 <img 
-                src={Image}
-                alt={Alt} 
-                className="max-w-xs md:max-w-md object-contain" 
+                    src={Image}
+                    alt={Alt} 
+                    className="w-full h-auto max-w-xs md:max-w-md lg:max-w-lg object-contain" 
                 />
             </div>
 

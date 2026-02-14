@@ -18,7 +18,7 @@ function MainSection() {
       <div className="flex-1 border border-black-500 flex  flex-col justify-center">
         <MainSectioncomponent 
 
-        Image = "/MrkDts.png"
+        Image = "/Mark.jpeg"
         alt = "Mark Datus"
         Greeting = "I'm Mark Andrie Datus, And I Enjoy"
         MainHeading = "Building interactive Systems"
